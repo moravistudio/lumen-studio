@@ -623,7 +623,7 @@ img {
     display: block;
   }
   .hero__content {
-    padding-left: 20px;
+    padding-left: 8px;
     max-width: 46%;
     padding-top: 16px;
   }
@@ -639,9 +639,10 @@ img {
   }
   .hero__subtitle {
     font-size: 11px;
-    max-width: 44%;
+    max-width: 42%;
     margin-bottom: 20px;
     white-space: pre-line;
+    line-height: 1.4;
   }
   .hero__cta-primary {
     font-size: 12px;
