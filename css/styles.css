@@ -685,11 +685,15 @@ img {
   .br-mobile { display: inline; }
   .galeria-nav__links {
     overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .galeria-nav__link {
-    font-size: 11px;
-    padding: 12px 10px;
-    letter-spacing: 0;
+    font-size: 12px;
+    padding: 10px 16px;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
   }
 }
 
