@@ -520,8 +520,8 @@ img {
 }
 
 @media (min-width: 769px) {
-  .hero__title br:last-child {
-    display: none;
+  .hero__title {
+    white-space: normal;
   }
 }
 
