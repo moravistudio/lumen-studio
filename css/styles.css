@@ -523,6 +523,9 @@ img {
   .hero__title {
     white-space: normal;
   }
+  .hero__title br:last-of-type {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
