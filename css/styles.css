@@ -615,9 +615,9 @@ img {
   .hero {
     padding-top: 20px;
     padding-bottom: 20px;
-    min-height: 50vh;
+    min-height: 100svh;
     background-position: right center;
-    background-size: 55% auto;
+    background-size: 100% auto;
   }
   .hero__inner {
     display: block;
