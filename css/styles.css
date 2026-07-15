@@ -523,7 +523,7 @@ img {
   .hero__title {
     white-space: normal;
   }
-  .hero__title br:last-of-type {
+  .hero__title br:first-of-type {
     display: none;
   }
 }
