@@ -622,6 +622,10 @@ img {
   .hero__inner {
     display: block;
   }
+  .hero__content {
+    padding-left: 20px;
+    max-width: 52%;
+  }
   .hero__title {
     font-size: clamp(18px, 4vw, 28px);
     letter-spacing: -0.5px;
@@ -642,6 +646,7 @@ img {
   }
   .hero__cta-secondary {
     font-size: 12px;
+    display: none;
   }
   .nav__link { color: white; }
   .nav {
