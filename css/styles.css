@@ -613,9 +613,9 @@ img {
 @media (max-width: 768px) {
   body { overflow-x: hidden; }
   .hero {
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
-    min-height: 100svh;
+    min-height: auto;
     background-position: right center;
     background-size: 100% auto;
   }
