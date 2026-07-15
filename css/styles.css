@@ -637,7 +637,7 @@ img {
     margin-left: -12px;
   }
   .hero__title {
-    font-size: clamp(26px, 5.5vw, 36px);
+    font-size: clamp(23px, 5vw, 32px);
     letter-spacing: -0.5px;
   }
   .hero__eyebrow {
