@@ -648,10 +648,12 @@ img {
   .hero__cta-primary {
     font-size: 12px;
     padding: 10px 18px;
+    display: none;
   }
   .hero__cta-secondary {
-    font-size: 12px;
-    display: none;
+    display: inline-flex;
+    color: var(--heading);
+    font-size: 13px;
   }
   .nav__link { color: white; }
   .nav {
