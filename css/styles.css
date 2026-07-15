@@ -683,6 +683,14 @@ img {
   .hamburger { display: flex; }
   .br-pc { display: none; }
   .br-mobile { display: inline; }
+  .galeria-nav__links {
+    overflow-x: hidden;
+  }
+  .galeria-nav__link {
+    font-size: 11px;
+    padding: 12px 10px;
+    letter-spacing: 0;
+  }
 }
 
 /* ============ SERVICIOS ============ */
