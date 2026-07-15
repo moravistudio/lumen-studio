@@ -624,7 +624,8 @@ img {
   }
   .hero__content {
     padding-left: 20px;
-    max-width: 52%;
+    max-width: 46%;
+    padding-top: 16px;
   }
   .hero__title {
     font-size: clamp(18px, 4vw, 28px);
@@ -634,11 +635,13 @@ img {
     font-size: 8px;
     letter-spacing: 2px;
     margin-bottom: 12px;
+    white-space: nowrap;
   }
   .hero__subtitle {
     font-size: 11px;
-    max-width: 48%;
+    max-width: 44%;
     margin-bottom: 20px;
+    white-space: pre-line;
   }
   .hero__cta-primary {
     font-size: 12px;
