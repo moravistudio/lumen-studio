@@ -519,13 +519,11 @@ img {
   color: var(--heading);
 }
 
+.br-mobile { display: none; }
+
 @media (min-width: 769px) {
-  .hero__title {
-    white-space: normal;
-  }
-  .hero__title br:first-of-type {
-    display: none;
-  }
+  .br-pc { display: block; }
+  .br-mobile { display: none; }
 }
 
 @media (max-width: 768px) {
@@ -681,6 +679,8 @@ img {
   .nav.is-open { display: flex; }
   .nav__link { padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08); width: 100%; }
   .hamburger { display: flex; }
+  .br-pc { display: none; }
+  .br-mobile { display: inline; }
 }
 
 /* ============ SERVICIOS ============ */
