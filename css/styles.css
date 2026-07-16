@@ -621,21 +621,24 @@ img {
 @media (max-width: 768px) {
   body { overflow-x: hidden; }
   .hero {
+    position: relative;
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     min-height: 65vh;
     background-position: right bottom;
     background-size: 100% auto;
-    display: flex;
-    align-items: center;
+    display: block;
   }
   .hero__inner {
     display: block;
   }
   .hero__content {
+    position: absolute;
+    top: 24px;
+    left: 24px;
     padding-left: 0;
     max-width: 60%;
-    margin-left: -12px;
+    margin-left: 0;
   }
   .hero__title {
     font-size: clamp(20px, 4vw, 27px);
