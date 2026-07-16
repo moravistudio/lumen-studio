@@ -625,8 +625,8 @@ img {
     padding: 0;
     min-height: 0;
     width: 100%;
-    background-position: left center;
-    background-size: cover;
+    background-position: center top;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     aspect-ratio: 4 / 5;
     display: block;
