@@ -681,6 +681,9 @@ img {
   }
   .cta-text-pc { display: none; }
   .cta-text-mobile { display: inline; }
+  .hero__cta-secondary:visited {
+    color: var(--heading-dark);
+  }
   .nav__link { color: white; }
   .nav {
     display: none;
