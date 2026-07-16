@@ -623,7 +623,8 @@ img {
   .hero {
     position: relative;
     padding: 0;
-    min-height: auto;
+    min-height: 0;
+    aspect-ratio: 3 / 4;
     background-position: right bottom;
     background-size: 100% auto;
     display: block;
@@ -633,7 +634,7 @@ img {
   }
   .hero__content {
     position: absolute;
-    top: 0;
+    top: 24px;
     left: 24px;
     padding-left: 0;
     max-width: 60%;
