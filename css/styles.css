@@ -633,7 +633,8 @@ img {
   .hero__content {
     padding-left: 0;
     max-width: 60%;
-    padding-top: 16px;
+    padding-top: 0;
+    margin-top: -40vh;
     margin-left: -12px;
   }
   .hero__title {
