@@ -624,21 +624,25 @@ img {
     position: relative;
     padding: 0;
     min-height: 0;
+    width: 100%;
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
     aspect-ratio: 3 / 4;
-    background-position: right bottom;
-    background-size: 100% auto;
     display: block;
   }
   .hero__inner {
     display: block;
+    height: 100%;
   }
   .hero__content {
     position: absolute;
     top: 24px;
     left: 24px;
-    padding-left: 0;
+    right: 24px;
+    padding: 0;
     max-width: 60%;
-    margin-left: 0;
+    margin: 0;
   }
   .hero__title {
     font-size: clamp(20px, 4vw, 27px);
