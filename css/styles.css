@@ -1282,3 +1282,7 @@ img {
     border-radius: 16px 16px 0 0;
   }
 }
+
+/* Firma de Moravi Studio (mismo texto que Libraica) */
+.firma-moravi { margin: 14px 0 0; text-align: center; font-size: 12px; line-height: 1.5; color: var(--body); }
+.firma-moravi a { color: var(--heading); text-decoration: underline; text-underline-offset: 2px; }
